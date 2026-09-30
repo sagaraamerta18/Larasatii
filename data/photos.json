@@ -1,1 +1,177 @@
-
+[
+  {
+    "id": "p1",
+    "src": "assets/photos/1.jpg",
+    "alt": "kenangan 1"
+  },
+  {
+    "id": "p2",
+    "src": "assets/photos/2.jpg",
+    "alt": "kenangan 2"
+  },
+  {
+    "id": "p3",
+    "src": "assets/photos/3.jpg",
+    "alt": "kenangan 3"
+  },
+  {
+    "id": "p4",
+    "src": "assets/photos/4.jpg",
+    "alt": "kenangan 4"
+  },
+  {
+    "id": "p5",
+    "src": "assets/photos/5.jpg",
+    "alt": "kenangan 5"
+  },
+  {
+    "id": "p6",
+    "src": "assets/photos/6.jpg",
+    "alt": "kenangan 6"
+  },
+  {
+    "id": "p7",
+    "src": "assets/photos/7.jpg",
+    "alt": "kenangan 7"
+  },
+  {
+    "id": "p8",
+    "src": "assets/photos/8.jpg",
+    "alt": "kenangan 8"
+  },
+  {
+    "id": "p9",
+    "src": "assets/photos/9.jpg",
+    "alt": "kenangan 9"
+  },
+  {
+    "id": "p10",
+    "src": "assets/photos/10.jpg",
+    "alt": "kenangan 10"
+  },
+  {
+    "id": "p11",
+    "src": "assets/photos/11.jpg",
+    "alt": "kenangan 11"
+  },
+  {
+    "id": "p12",
+    "src": "assets/photos/12.jpg",
+    "alt": "kenangan 12"
+  },
+  {
+    "id": "p13",
+    "src": "assets/photos/13.jpg",
+    "alt": "kenangan 13"
+  },
+  {
+    "id": "p14",
+    "src": "assets/photos/14.jpg",
+    "alt": "kenangan 14"
+  },
+  {
+    "id": "p15",
+    "src": "assets/photos/15.jpg",
+    "alt": "kenangan 15"
+  },
+  {
+    "id": "p16",
+    "src": "assets/photos/16.jpg",
+    "alt": "kenangan 16"
+  },
+  {
+    "id": "p17",
+    "src": "assets/photos/17.jpg",
+    "alt": "kenangan 17"
+  },
+  {
+    "id": "p18",
+    "src": "assets/photos/18.jpg",
+    "alt": "kenangan 18"
+  },
+  {
+    "id": "p19",
+    "src": "assets/photos/19.jpg",
+    "alt": "kenangan 19"
+  },
+  {
+    "id": "p20",
+    "src": "assets/photos/20.jpg",
+    "alt": "kenangan 20"
+  },
+  {
+    "id": "p21",
+    "src": "assets/photos/21.jpg",
+    "alt": "kenangan 21"
+  },
+  {
+    "id": "p22",
+    "src": "assets/photos/22.jpg",
+    "alt": "kenangan 22"
+  },
+  {
+    "id": "p23",
+    "src": "assets/photos/23.jpg",
+    "alt": "kenangan 23"
+  },
+  {
+    "id": "p24",
+    "src": "assets/photos/24.jpg",
+    "alt": "kenangan 24"
+  },
+  {
+    "id": "p25",
+    "src": "assets/photos/25.jpg",
+    "alt": "kenangan 25"
+  },
+  {
+    "id": "p26",
+    "src": "assets/photos/26.jpg",
+    "alt": "kenangan 26"
+  },
+  {
+    "id": "p27",
+    "src": "assets/photos/27.jpg",
+    "alt": "kenangan 27"
+  },
+  {
+    "id": "p28",
+    "src": "assets/photos/28.jpg",
+    "alt": "kenangan 28"
+  },
+  {
+    "id": "p29",
+    "src": "assets/photos/29.jpg",
+    "alt": "kenangan 29"
+  },
+  {
+    "id": "p30",
+    "src": "assets/photos/30.jpg",
+    "alt": "kenangan 30"
+  },
+  {
+    "id": "p31",
+    "src": "assets/photos/31.jpg",
+    "alt": "kenangan 31"
+  },
+  {
+    "id": "p32",
+    "src": "assets/photos/32.jpg",
+    "alt": "kenangan 32"
+  },
+  {
+    "id": "p33",
+    "src": "assets/photos/33.jpg",
+    "alt": "kenangan 33"
+  },
+  {
+    "id": "p34",
+    "src": "assets/photos/34.jpg",
+    "alt": "kenangan 34"
+  },
+  {
+    "id": "p35",
+    "src": "assets/photos/35.jpg",
+    "alt": "kenangan 35"
+  }
+]

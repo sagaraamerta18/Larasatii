@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0A1128">
+<title>untuk kamu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+  <div class="ambient-bg"></div>
+
+  <main class="hub">
+    <header class="hub__header">
+      <h1>untuk kamu</h1>
+    </header>
+
+    <!-- ===== TOP GALLERY (auto + manual) ===== -->
+    <section class="gallery">
+      <div class="swiper" id="topGallerySwiper">
+        <div class="swiper-wrapper" id="topGalleryWrapper"></div>
+      </div>
+    </section>
+
+    <!-- ===== DROPDOWN MENU ===== -->
+    <section class="menu">
+
+      <!-- PICTURE -->
+      <div class="menu__item" data-menu="picture">
+        <button class="menu__trigger">
+          <i data-lucide="image"></i>
+          <span class="menu__trigger-label">Picture</span>
+          <i data-lucide="chevron-down" class="menu__chevron"></i>
+        </button>
+        <div class="menu__panel">
+          <div class="menu__panel-inner">
+            <div class="swiper stack-swiper" id="pictureSwiper">
+              <div class="swiper-wrapper" id="pictureWrapper"></div>
+            </div>
+            <p class="swipe-hint">geser kartu untuk lihat foto lainnya</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- UCAPAN -->
+      <div class="menu__item" data-menu="ucapan">
+        <button class="menu__trigger">
+          <i data-lucide="heart"></i>
+          <span class="menu__trigger-label">Ucapan-ucapan</span>
+          <i data-lucide="chevron-down" class="menu__chevron"></i>
+        </button>
+        <div class="menu__panel">
+          <div class="menu__panel-inner">
+            <div class="swiper stack-swiper" id="ucapanSwiper">
+              <div class="swiper-wrapper" id="ucapanWrapper"></div>
+            </div>
+            <p class="swipe-hint">geser kartu untuk baca ucapan lainnya</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- BACK -->
+      <div class="menu__item" data-menu="back">
+        <button class="menu__trigger">
+          <i data-lucide="corner-up-left"></i>
+          <span class="menu__trigger-label">Back</span>
+          <i data-lucide="chevron-down" class="menu__chevron"></i>
+        </button>
+        <div class="menu__panel">
+          <div class="menu__panel-inner">
+            <div class="back-panel">
+              <p>back to the beginning</p>
+              <a href="index.html"><button class="btn-secondary">back</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/audio.js"></script>
+  <script src="assets/js/hub.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0A1128">
+<title>tunggu ya...</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="ambient-bg"></div>
+
+  <main class="countdown-page">
+
+    <!-- STATE A: counting down -->
+    <section id="countdownState">
+      <p class="countdown-page__sub">sabarr yaaaa, sebentar laagiii...</p>
+      <div class="timer">
+        <div class="timer__unit"><div class="timer__value" id="tDays">00</div><div class="timer__label">hari</div></div>
+        <div class="timer__unit"><div class="timer__value" id="tHours">00</div><div class="timer__label">jam</div></div>
+        <div class="timer__unit"><div class="timer__value" id="tMinutes">00</div><div class="timer__label">menit</div></div>
+        <div class="timer__unit"><div class="timer__value" id="tSeconds">00</div><div class="timer__label">detik</div></div>
+      </div>
+    </section>
+
+    <!-- STATE B: gift reveal -->
+    <section class="gift" id="giftState">
+      <div class="gift__stage" id="giftStage">
+        <div class="gift__glow"></div>
+        <span class="spark spark--1">✦</span>
+        <span class="spark spark--2">✦</span>
+        <span class="spark spark--3">✧</span>
+        <span class="spark spark--4">✦</span>
+        <span class="spark spark--5">✧</span>
+        <div class="gift__box" id="giftBox" role="button" tabindex="0" aria-label="buka kado">
+          <div class="gift__lid"><div class="gift__bow"></div></div>
+          <div class="gift__pack"></div>
+        </div>
+      </div>
+      <p class="gift__hint" id="giftHint">tap kadonya</p>
+
+      <div class="gift__message" id="giftMessage">
+        <div class="gift__seal">✨</div>
+        <h2 class="gift__title">Happy Birthday 🎂</h2>
+        <p class="gift__body">
+          Selamat ulang tahun. Semoga umur baru ini membawa lebih banyak alasan untuk tersenyum,
+          lebih banyak keberanian untuk terus belajar, dan lebih banyak kekuatan untuk menjalani hari-hari yang berat sekalipun.
+          Tetap semangat menjalani hidup, teruslah bertumbuh dan belajar hal baru — kamu berhak untuk itu.
+        </p>
+        <button class="btn-primary btn-continue" id="continueBtn">lanjut</button>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="assets/js/audio.js"></script>
+  <script src="assets/js/countdown.js"></script>
+</body>
+</html>

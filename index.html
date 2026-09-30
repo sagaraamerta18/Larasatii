@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0A1128">
+<title>untuk kamu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="ambient-bg"></div>
+
+  <main class="landing">
+    <div class="landing__envelope">💌</div>
+    <h1 class="landing__title">haii dearest,<br>I have something for you</h1>
+    <button class="btn-primary" id="startBtn">click</button>
+  </main>
+
+  <script src="assets/js/audio.js"></script>
+  <script>
+    document.getElementById('startBtn').addEventListener('click', () => {
+      if (window.SFX) SFX.click();
+      window.location.href = 'countdown.html';
+    });
+  </script>
+</body>
+</html>
